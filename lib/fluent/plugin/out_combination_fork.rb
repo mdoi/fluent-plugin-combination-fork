@@ -1,5 +1,5 @@
 module Fluent
-  class ForkOutput < Output
+  class CombinationForkOutput < Output
     Fluent::Plugin.register_output('combination_fork', self)
 
     unless method_defined?(:log)
